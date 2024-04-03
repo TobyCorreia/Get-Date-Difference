@@ -1,0 +1,38 @@
+{
+  "description": "Calculates the difference in years, months and days between 2 dates. A result is an object where the values can be retrieved via an expression.",
+  "label": "Calculate date difference",
+  "category": "Lexence specific",
+  "icon": {
+    "name": "DateDayIcon",
+    "color": "Green"
+  },
+  "options": [
+    {
+      "name": "start",
+      "label": "Start date",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": []
+      }
+    },
+    {
+      "name": "end",
+      "label": "End date",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": []
+      }
+    },
+    {
+      "name": "result",
+      "label": "Result",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
